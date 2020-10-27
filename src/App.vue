@@ -1,9 +1,18 @@
 <template>
-  <div id="app">
-    
+  <div class="App">
+    <router-view></router-view>
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  name:'App',
+  components:{
+    
+  }
+}
+</script>
 
+<style scoped>
+  @import './assets/css/public.css';
 </style>
